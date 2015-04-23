@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Plumlytics Automation]">
+  <test name="Search test(failed)">
+    <classes>
+      <class name="com.functional.suite.LogInTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.functional.suite.LogInTest -->
+      <class name="com.functional.suite.SignUpTest">
+        <methods>
+          <include name="SignUpTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.functional.suite.SignUpTest -->
+    </classes>
+  </test> <!-- Search test(failed) -->
+</suite> <!-- Failed suite [Plumlytics Automation] -->
